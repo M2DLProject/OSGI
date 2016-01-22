@@ -1,0 +1,11 @@
+package service;
+
+public class ColoratorJavaServiceImpl  implements ColoratorJavaService {
+
+	@Override
+	public String colorParsedText(String parsedText) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

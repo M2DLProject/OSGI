@@ -1,0 +1,24 @@
+!SESSION 2016-01-22 17:22:48.074 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Command-line arguments:  -dev file:/home/steve/Bureau/Nostromo/workspace/osgi/sources-dev/.metadata/.plugins/org.eclipse.pde.core/myConf/dev.properties -os linux -ws gtk -arch x86_64 -consoleLog -console
+
+!ENTRY m2dl.osgi.editor 4 0 2016-01-22 17:22:48.696
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: m2dl.osgi.editor [12]
+  Unresolved requirement: Import-Package: service
+
+	at org.eclipse.osgi.container.Module.start(Module.java:434)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.osgi 4 0 2016-01-22 17:22:48.698
+!MESSAGE Bundle initial@reference:file:../../../../workspace/osgi/sources-dev/m2dl.osgi.editor/ was not resolved.

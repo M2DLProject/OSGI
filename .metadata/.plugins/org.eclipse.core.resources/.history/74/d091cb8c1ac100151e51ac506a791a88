@@ -1,0 +1,11 @@
+package service;
+
+public class ColoratorJavaServiceImpl  implements ColoratorJavaService {
+
+	@Override
+	public String colorParsedText(String parsedText) {
+		System.out.println("Letssssssssssss go partingg fds sdfkjdshfjkds");
+		return null;
+	}
+
+}

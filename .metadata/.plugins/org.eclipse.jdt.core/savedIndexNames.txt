@@ -1,0 +1,12 @@
+INDEX VERSION 1.127+/home/steve/Bureau/Nostromo/workspace/osgi/sources-dev/.metadata/.plugins/org.eclipse.jdt.core
+2002982007.index
+3176579652.index
+1318673725.index
+3249679260.index
+4077132200.index
+3190230941.index
+2668018312.index
+612411131.index
+1555581734.index
+3709983136.index
+2916773876.index

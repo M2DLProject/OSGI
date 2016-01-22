@@ -1,0 +1,42 @@
+package m2dl.osgi.editor.trakerCustomiser;
+
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.ServiceReference;
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
+
+import service.ColoratorJavaService;
+
+public class ColoratorJavaTrackerCustomiser
+		implements ServiceTrackerCustomizer<ColoratorJavaService, ColoratorJavaService> {
+
+	private final BundleContext context;
+
+	public ColoratorJavaTrackerCustomiser(BundleContext _context) {
+		context = _context;
+	}
+
+	@Override
+	public ColoratorJavaService addingService(ServiceReference<ColoratorJavaService> reference) {
+		final ColoratorJavaService service = context.getService(reference);
+
+		System.out.println(
+				"A new \"MyService\" appeared with the extention type = " + reference.getProperty("my.metadata.type"));
+
+		service.colorParsedText("gjgygd");
+
+		return service;
+	}
+
+	@Override
+	public void modifiedService(ServiceReference<ColoratorJavaService> reference, ColoratorJavaService service) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void removedService(ServiceReference<ColoratorJavaService> reference, ColoratorJavaService service) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
