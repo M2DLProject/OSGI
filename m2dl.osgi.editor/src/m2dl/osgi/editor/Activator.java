@@ -14,6 +14,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import m2dl.osgi.editor.service.ColoratorJavaService;
 import m2dl.osgi.editor.service.ParserService;
 
 public class Activator implements BundleActivator {
@@ -35,6 +36,7 @@ public class Activator implements BundleActivator {
 		 */
 		BasicConfigurator.configure();
 
+		// Parser
 		final ServiceTrackerCustomizer<ParserService, ParserService> trackerCustomizer = new ParserServiceTrackerCustomiser(
 				bundleContext);
 
@@ -43,6 +45,14 @@ public class Activator implements BundleActivator {
 		mainService.open();
 
 		System.out.println("A tracker for \"MyService\" is started.");
+
+		// Java
+		final ServiceTrackerCustomizer<ColoratorJavaService, ColoratorJavaService> coloratorJavaServiceTrackerCustomiser = new ColoratorJavaServiceTrackerCustomiser(
+				bundleContext);
+
+		final ServiceTracker<ColoratorJavaService, ColoratorJavaService> coloratorJavaServiceTracker = new ServiceTracker<ColoratorJavaService, ColoratorJavaService>(
+				bundleContext, ColoratorJavaService.class.getName(), coloratorJavaServiceTrackerCustomiser);
+		coloratorJavaServiceTracker.open();
 
 		/*
 		 * Starting only one JavaFX window.
@@ -66,6 +76,7 @@ public class Activator implements BundleActivator {
 					final CodeViewerController controller = loader.getController();
 
 					controller.setServiceTracker(mainService);
+					controller.setColoratorJavaService(coloratorJavaServiceTracker);
 					controller.setPrimaryStage(primaryStage);
 
 					controller.setBundleContext(bundleContext);

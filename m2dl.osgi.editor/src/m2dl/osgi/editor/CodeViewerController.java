@@ -22,6 +22,7 @@ import javafx.scene.web.WebView;
 import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import m2dl.osgi.editor.service.ColoratorJavaService;
 import m2dl.osgi.editor.service.ParserService;
 
 public class CodeViewerController {
@@ -34,6 +35,8 @@ public class CodeViewerController {
 	private String option = "<style>font{font-weight: bold;}</style>";
 
 	private ServiceTracker<ParserService, ParserService> serviceTracker;
+
+	private ServiceTracker<ColoratorJavaService, ColoratorJavaService> coloratorJavaService;
 
 	public BundleContext getBundleContext() {
 		return bundleContext;
@@ -164,7 +167,7 @@ public class CodeViewerController {
 				contentFile += s.next() + "<br />";
 			}
 
-			webViewer.getEngine().loadContent(option + contentFile);
+			update();
 
 			Activator.logger.info("File selected: " + selectedFile.getName());
 		} else {
@@ -198,8 +201,7 @@ public class CodeViewerController {
 			try {
 				bundleParser.start();
 
-				String parsed = this.getServiceTracker().getService().parser(contentFile);
-				webViewer.getEngine().loadContent(parsed);
+				update();
 
 			} catch (BundleException e) {
 				// TODO Auto-generated catch block
@@ -216,6 +218,27 @@ public class CodeViewerController {
 		 * If the Java bundle is stated -> stop it otherwise start it (if it has
 		 * been loaded before)
 		 */
+
+		if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
+			try {
+				bundleParser.stop();
+			} catch (BundleException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} else {
+			try {
+				bundleParser.start();
+
+				update();
+
+			} catch (BundleException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			Activator.logger.info("MAIS OUI CEST CLAIRERRRR");
+		}
+
 	}
 
 	@FXML
@@ -225,6 +248,17 @@ public class CodeViewerController {
 		assert webViewer != null : "fx:id=\"webViewer\" was not injected: check your FXML file 'main-window-exercice.fxml'.";
 		assert radioMenuCSS != null : "fx:id=\"radioMenuCSS\" was not injected: check your FXML file 'main-window-exercice.fxml'.";
 
+	}
+
+	void update() {
+		String result = contentFile;
+		if (this.getColoratorJavaService().getService() != null) {
+			result = this.getColoratorJavaService().getService().colorer(result);
+		}
+		if (this.getServiceTracker().getService() != null) {
+			result = this.getServiceTracker().getService().parser(result);
+		}
+		webViewer.getEngine().loadContent(option + result);
 	}
 
 	public void setPrimaryStage(final Stage _stage) {
@@ -245,6 +279,15 @@ public class CodeViewerController {
 
 	public void setContentFile(String contentFile) {
 		this.contentFile = contentFile;
+	}
+
+	public ServiceTracker<ColoratorJavaService, ColoratorJavaService> getColoratorJavaService() {
+		return coloratorJavaService;
+	}
+
+	public void setColoratorJavaService(
+			ServiceTracker<ColoratorJavaService, ColoratorJavaService> coloratorJavaService) {
+		this.coloratorJavaService = coloratorJavaService;
 	}
 
 }

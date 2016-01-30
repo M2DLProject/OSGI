@@ -5,8 +5,8 @@ import java.util.Hashtable;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-import m2dl.osgi.coloratorjava.service.ColoratorJavaService;
-import m2dl.osgi.coloratorjava.serviceimpl.ColoratorJavaServiceImpl;
+import m2dl.osgi.coloratorjava.service.ColoratorJavaServiceImpl;
+import m2dl.osgi.editor.service.ColoratorJavaService;
 
 public class Activator implements BundleActivator {
 
@@ -19,13 +19,17 @@ public class Activator implements BundleActivator {
 	public void start(BundleContext context) throws Exception {
 		System.out.println("Lets go java!!");
 
-		final ColoratorJavaService coloratorJavaService = new ColoratorJavaServiceImpl();
+		System.out.println("Parser start - 1");
+
+		final ColoratorJavaService parserService = new ColoratorJavaServiceImpl();
 
 		final Hashtable<String, String> dictionnary = new Hashtable<>();
 		dictionnary.put("my.metadata.type", "my.metadata.value");
 
-		context.registerService(ColoratorJavaService.class.getName(), coloratorJavaService, dictionnary);
-		System.out.println("My bundle is started and registered");
+		context.registerService(ColoratorJavaService.class.getName(), parserService, dictionnary);
+
+		System.out.println("Parser start - 2");
+
 	}
 
 	/*

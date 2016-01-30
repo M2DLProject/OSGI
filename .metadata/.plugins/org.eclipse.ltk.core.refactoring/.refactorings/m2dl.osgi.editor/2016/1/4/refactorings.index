@@ -2,3 +2,5 @@
 1454172977211	Encapsulate field 'parserService'
 1454174196409	Encapsulate field 'serviceTracker'
 1454183740177	Encapsulate field 'contentFile'
+1454190820527	Copy compilation unit
+1454191362042	Encapsulate field 'coloratorJavaService'

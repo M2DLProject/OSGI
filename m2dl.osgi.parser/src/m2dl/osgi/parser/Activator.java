@@ -17,6 +17,7 @@ public class Activator implements BundleActivator {
 	 * BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
+
 		System.out.println("Parser start - 1");
 
 		final ParserService parserService = new ParserServiceImpl();
