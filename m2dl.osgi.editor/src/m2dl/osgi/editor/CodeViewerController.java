@@ -30,6 +30,7 @@ public class CodeViewerController {
 	// private ColoratorJavaService coloratorJavaService;
 
 	private Bundle bundleParser;
+	private Bundle bundleColorator;
 	private BundleContext bundleContext;
 	private String contentFile;
 	private String option = "<style>font{font-weight: bold;}</style>";
@@ -128,14 +129,17 @@ public class CodeViewerController {
 
 			if (bundleContext != null) {
 				try {
+					if (selectedFile.getName().contains("parser")) {
+						bundleParser = bundleContext.installBundle(selectedFile.toURI().toString());
+					} else {
+						bundleColorator = bundleContext.installBundle(selectedFile.toURI().toString());
+					}
 
-					bundleParser = bundleContext.installBundle(selectedFile.toURI().toString());
 					Activator.logger.info("Bundel parser is started");
 				} catch (BundleException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
-				Activator.logger.info("Youppppppppppppppppppppppi");
 			}
 
 		} else {
@@ -190,24 +194,27 @@ public class CodeViewerController {
 		 * it has been loaded before)
 		 */
 
-		if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
-			try {
-				bundleParser.stop();
-			} catch (BundleException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		} else {
-			try {
-				bundleParser.start();
+		if (bundleColorator != null) {
 
-				update();
+			if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
+				try {
+					bundleParser.stop();
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			} else {
+				try {
+					bundleParser.start();
 
-			} catch (BundleException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+					update();
+
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				Activator.logger.info("MAIS OUI CEST CLAIRERRRR");
 			}
-			Activator.logger.info("MAIS OUI CEST CLAIRERRRR");
 		}
 
 	}
@@ -219,24 +226,27 @@ public class CodeViewerController {
 		 * been loaded before)
 		 */
 
-		if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
-			try {
-				bundleParser.stop();
-			} catch (BundleException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		} else {
-			try {
-				bundleParser.start();
+		if (bundleColorator != null) {
 
-				update();
+			if (bundleColorator.getState() == Bundle.STARTING || bundleColorator.getState() == Bundle.ACTIVE) {
+				try {
+					bundleColorator.stop();
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			} else {
+				try {
+					bundleColorator.start();
 
-			} catch (BundleException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+					update();
+
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				Activator.logger.info("MAIS OUI CEST CLAIRERRRR");
 			}
-			Activator.logger.info("MAIS OUI CEST CLAIRERRRR");
 		}
 
 	}
