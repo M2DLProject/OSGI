@@ -9,6 +9,7 @@ import java.util.Scanner;
 import org.osgi.framework.Bundle;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.BundleException;
+import org.osgi.util.tracker.ServiceTracker;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -21,6 +22,7 @@ import javafx.scene.web.WebView;
 import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import m2dl.osgi.editor.service.ParserService;
 
 public class CodeViewerController {
 
@@ -28,6 +30,8 @@ public class CodeViewerController {
 
 	private Bundle bundleParser;
 	private BundleContext bundleContext;
+	private ParserService parserService;
+	private ServiceTracker<ParserService, ParserService> serviceTracker;
 
 	public BundleContext getBundleContext() {
 		return bundleContext;
@@ -153,6 +157,8 @@ public class CodeViewerController {
 
 			Scanner s = new Scanner(selectedFile).useDelimiter("\\Z");
 
+			// ParserService parserService = new ParserServiceImpl();
+
 			webViewer.getEngine().loadContent(s.next());
 
 			Activator.logger.info("File selected: " + selectedFile.getName());
@@ -186,6 +192,9 @@ public class CodeViewerController {
 		} else {
 			try {
 				bundleParser.start();
+
+				this.getServiceTracker().getService().parser("AAAAAAAAAAAAAAAAAAAAAAAAA");
+
 			} catch (BundleException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -214,6 +223,22 @@ public class CodeViewerController {
 
 	public void setPrimaryStage(final Stage _stage) {
 		primaryStage = _stage;
+	}
+
+	public ParserService getParserService() {
+		return parserService;
+	}
+
+	public void setParserService(ParserService parserService) {
+		this.parserService = parserService;
+	}
+
+	public ServiceTracker<ParserService, ParserService> getServiceTracker() {
+		return serviceTracker;
+	}
+
+	public void setServiceTracker(ServiceTracker<ParserService, ParserService> serviceTracker) {
+		this.serviceTracker = serviceTracker;
 	}
 
 }

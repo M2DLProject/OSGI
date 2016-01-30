@@ -1,7 +1,12 @@
 package m2dl.osgi.parser;
 
+import java.util.Hashtable;
+
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
+
+import m2dl.osgi.editor.service.ParserService;
+import m2dl.osgi.parser.service.ParserServiceImpl;
 
 public class Activator implements BundleActivator {
 
@@ -12,9 +17,16 @@ public class Activator implements BundleActivator {
 	 * BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
-		System.out.println("PARSER IS OKKKAYYY");
+		System.out.println("Parser start - 1");
 
-		/// mainService.getService().parser("ddd");
+		final ParserService parserService = new ParserServiceImpl();
+
+		final Hashtable<String, String> dictionnary = new Hashtable<>();
+		dictionnary.put("my.metadata.type", "my.metadata.value");
+
+		context.registerService(ParserService.class.getName(), parserService, dictionnary);
+
+		System.out.println("Parser start - 2");
 
 	}
 

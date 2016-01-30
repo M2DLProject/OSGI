@@ -5,6 +5,8 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
+import org.osgi.util.tracker.ServiceTracker;
+import org.osgi.util.tracker.ServiceTrackerCustomizer;
 
 import javafx.application.Platform;
 import javafx.embed.swing.JFXPanel;
@@ -12,6 +14,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import m2dl.osgi.editor.service.ParserService;
 
 public class Activator implements BundleActivator {
 
@@ -19,6 +22,7 @@ public class Activator implements BundleActivator {
 	 * To know if the window is running.
 	 */
 	private static Boolean windowIsRunning = false;
+
 	/**
 	 * The logger.
 	 */
@@ -30,6 +34,15 @@ public class Activator implements BundleActivator {
 		 * Configuring the logger.
 		 */
 		BasicConfigurator.configure();
+
+		final ServiceTrackerCustomizer<ParserService, ParserService> trackerCustomizer = new ParserServiceTrackerCustomiser(
+				bundleContext);
+
+		final ServiceTracker<ParserService, ParserService> mainService = new ServiceTracker<ParserService, ParserService>(
+				bundleContext, ParserService.class.getName(), trackerCustomizer);
+		mainService.open();
+
+		System.out.println("A tracker for \"MyService\" is started.");
 
 		/*
 		 * Starting only one JavaFX window.
@@ -51,7 +64,8 @@ public class Activator implements BundleActivator {
 					final Scene scene = new Scene(root, 400, 400);
 
 					final CodeViewerController controller = loader.getController();
-
+					controller.setParserService(mainService.getService());
+					controller.setServiceTracker(mainService);
 					controller.setPrimaryStage(primaryStage);
 
 					controller.setBundleContext(bundleContext);
