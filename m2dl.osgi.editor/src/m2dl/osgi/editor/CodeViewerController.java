@@ -6,6 +6,10 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.Scanner;
 
+import org.osgi.framework.Bundle;
+import org.osgi.framework.BundleContext;
+import org.osgi.framework.BundleException;
+
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.geometry.Pos;
@@ -21,6 +25,17 @@ import javafx.stage.Stage;
 public class CodeViewerController {
 
 	// private ColoratorJavaService coloratorJavaService;
+
+	private Bundle bundleParser;
+	private BundleContext bundleContext;
+
+	public BundleContext getBundleContext() {
+		return bundleContext;
+	}
+
+	public void setBundleContext(BundleContext bundleContext) {
+		this.bundleContext = bundleContext;
+	}
 
 	/**
 	 * The main window of the application.
@@ -101,6 +116,19 @@ public class CodeViewerController {
 		 */
 		if (selectedFile != null) {
 			Activator.logger.info("File selected: " + selectedFile.getName());
+
+			if (bundleContext != null) {
+				try {
+
+					bundleParser = bundleContext.installBundle(selectedFile.toURI().toString());
+					Activator.logger.info("Bundel parser is started");
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				Activator.logger.info("Youppppppppppppppppppppppi");
+			}
+
 		} else {
 			Activator.logger.info("File selection cancelled.");
 		}
@@ -147,6 +175,24 @@ public class CodeViewerController {
 		 * If the decorator bundle is stated -> stop it otherwise start it (if
 		 * it has been loaded before)
 		 */
+
+		if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
+			try {
+				bundleParser.stop();
+			} catch (BundleException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} else {
+			try {
+				bundleParser.start();
+			} catch (BundleException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			Activator.logger.info("MAIS OUI CEST CLAIRERRRR");
+		}
+
 	}
 
 	@FXML

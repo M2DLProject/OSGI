@@ -31,19 +31,6 @@ public class Activator implements BundleActivator {
 		 */
 		BasicConfigurator.configure();
 
-		// Service
-		/*
-		 * final ServiceTrackerCustomizer<ColoratorJavaService,
-		 * ColoratorJavaService> trackerCustomizer = new
-		 * ColoratorJavaTrackerCustomiser( bundleContext);
-		 * 
-		 * final ServiceTracker<ColoratorJavaService, ColoratorJavaService>
-		 * mainService = new ServiceTracker<ColoratorJavaService,
-		 * ColoratorJavaService>( bundleContext,
-		 * ColoratorJavaService.class.getName(), trackerCustomizer);
-		 * mainService.open();
-		 */
-
 		/*
 		 * Starting only one JavaFX window.
 		 */
@@ -66,6 +53,8 @@ public class Activator implements BundleActivator {
 					final CodeViewerController controller = loader.getController();
 
 					controller.setPrimaryStage(primaryStage);
+
+					controller.setBundleContext(bundleContext);
 
 					/*
 					 * Setup the window

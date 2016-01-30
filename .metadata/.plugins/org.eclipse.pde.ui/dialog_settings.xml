@@ -5,7 +5,36 @@
 	<item value="false" key="apiAnalysis"/>
 	<item value="" key="targetName"/>
 	<item value="true" key="osgiProject"/>
+	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="23" key="DIALOG_Y_ORIGIN"/>
+			<item value="386" key="DIALOG_X_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
 	<section name="quick_assist_proposal_size">
+	</section>
+	<section name="PluginExportWizard">
+		<item value="true" key="exportUpdate"/>
+		<item value="false" key="saveAsAnt"/>
+		<item value="" key="alias"/>
+		<item value="Generate source bundles" key="exportSourceFormat"/>
+		<item value="false" key="qualifier"/>
+		<item value="" key="password"/>
+		<item value="" key="keypass"/>
+		<item value="false" key="exportSource"/>
+		<item value="" key="keystore"/>
+		<item value="false" key="useWorkspaceCompiledClasses"/>
+		<item value="1" key="exportType"/>
+		<item value="false" key="signJAR"/>
+		<item value="/home/steve/Bureau/plugin/parser" key="destination1"/>
+		<item value="/home/steve/Bureau/plugin/parser" key="destination0"/>
+		<item value="201601301601" key="qualifierName"/>
+		<item value="true" key="allowBinaryCycles"/>
 	</section>
 	<section name="PDEFormActionManager">
 	</section>

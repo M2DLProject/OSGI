@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;m2dl.osgi.parser.MyServiceTrackerCustomiser&apos; to &apos;ParserServiceTrackerCustomiser&apos;&#x0A;- Original project: &apos;m2dl.osgi.parser&apos;&#x0A;- Original element: &apos;m2dl.osgi.parser.MyServiceTrackerCustomiser&apos;&#x0A;- Renamed element: &apos;m2dl.osgi.parser.ParserServiceTrackerCustomiser&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MyServiceTrackerCustomiser&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;m2dl.osgi.parser{MyServiceTrackerCustomiser.java[MyServiceTrackerCustomiser" matchStrategy="1" name="ParserServiceTrackerCustomiser" qualified="false" references="true" similarDeclarations="false" stamp="1454164915997" textual="false" version="1.0"/>
+</session>

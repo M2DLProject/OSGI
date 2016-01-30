@@ -1,1 +1,1 @@
-{}
+[[{"location":"/home/steve/Bureau/Nostromo/App/jre1.8.0_65","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"],[{"location":"/home/steve/Bureau/Nostromo/workspace/osgi/sources-dev/run.osgi.from.java-main/lib/org.eclipse.osgi_3.10.100.v20150529-1857.jar","type":"JAR","hints":{}},"org.eclipse.osgi:org.eclipse.osgi:3.10.100"],[{"location":"/home/steve/Bureau/Nostromo/App/rcp/pEclipse/eclipse/plugins/org.eclipse.osgi_3.10.101.v20150820-1432.jar","type":"JAR","hints":{}},"org.eclipse.osgi:org.eclipse.osgi:3.10.100"]]

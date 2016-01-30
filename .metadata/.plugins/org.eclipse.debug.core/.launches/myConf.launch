@@ -10,7 +10,7 @@
 <booleanAttribute key="default" value="true"/>
 <booleanAttribute key="default_auto_start" value="true"/>
 <intAttribute key="default_start_level" value="4"/>
-<stringAttribute key="deselected_workspace_plugins" value="m2dl.osgi.colorator-css,m2dl.osgi.colorator-java,m2dl.osgi.parser"/>
+<stringAttribute key="deselected_workspace_plugins" value="example.osgi.service-consumer,example.osgi.service-provider,m2dl.osgi.colorator-css,m2dl.osgi.colorator-java,m2dl.osgi.parser"/>
 <booleanAttribute key="includeOptional" value="true"/>
 <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
 <stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
@@ -23,5 +23,5 @@
 <booleanAttribute key="tracing" value="false"/>
 <booleanAttribute key="useCustomFeatures" value="false"/>
 <booleanAttribute key="useDefaultConfigArea" value="true"/>
-<stringAttribute key="workspace_bundles" value="example.osgi.service-consumer@default:default,example.osgi.service-provider@default:default,m2dl.osgi.editor*1.0.0@default:default"/>
+<stringAttribute key="workspace_bundles" value="m2dl.osgi.editor@default:default"/>
 </launchConfiguration>

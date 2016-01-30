@@ -1,7 +1,0 @@
-package service;
-
-public interface ColoratorJavaService {
-	
-	public String colorParsedText(String parsedText);
-
-}
