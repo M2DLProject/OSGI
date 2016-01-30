@@ -64,7 +64,7 @@ public class Activator implements BundleActivator {
 					final Scene scene = new Scene(root, 400, 400);
 
 					final CodeViewerController controller = loader.getController();
-					controller.setParserService(mainService.getService());
+
 					controller.setServiceTracker(mainService);
 					controller.setPrimaryStage(primaryStage);
 

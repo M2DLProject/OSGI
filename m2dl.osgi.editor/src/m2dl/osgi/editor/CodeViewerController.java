@@ -30,7 +30,9 @@ public class CodeViewerController {
 
 	private Bundle bundleParser;
 	private BundleContext bundleContext;
-	private ParserService parserService;
+	private String contentFile;
+	private String option = "<style>font{font-weight: bold;}</style>";
+
 	private ServiceTracker<ParserService, ParserService> serviceTracker;
 
 	public BundleContext getBundleContext() {
@@ -157,9 +159,12 @@ public class CodeViewerController {
 
 			Scanner s = new Scanner(selectedFile).useDelimiter("\\Z");
 
-			// ParserService parserService = new ParserServiceImpl();
+			contentFile = "";
+			while (s.hasNext()) {
+				contentFile += s.next() + "<br />";
+			}
 
-			webViewer.getEngine().loadContent(s.next());
+			webViewer.getEngine().loadContent(option + contentFile);
 
 			Activator.logger.info("File selected: " + selectedFile.getName());
 		} else {
@@ -193,7 +198,8 @@ public class CodeViewerController {
 			try {
 				bundleParser.start();
 
-				this.getServiceTracker().getService().parser("AAAAAAAAAAAAAAAAAAAAAAAAA");
+				String parsed = this.getServiceTracker().getService().parser(contentFile);
+				webViewer.getEngine().loadContent(parsed);
 
 			} catch (BundleException e) {
 				// TODO Auto-generated catch block
@@ -225,20 +231,20 @@ public class CodeViewerController {
 		primaryStage = _stage;
 	}
 
-	public ParserService getParserService() {
-		return parserService;
-	}
-
-	public void setParserService(ParserService parserService) {
-		this.parserService = parserService;
-	}
-
 	public ServiceTracker<ParserService, ParserService> getServiceTracker() {
 		return serviceTracker;
 	}
 
 	public void setServiceTracker(ServiceTracker<ParserService, ParserService> serviceTracker) {
 		this.serviceTracker = serviceTracker;
+	}
+
+	public String getContentFile() {
+		return contentFile;
+	}
+
+	public void setContentFile(String contentFile) {
+		this.contentFile = contentFile;
 	}
 
 }

@@ -5,6 +5,8 @@
 <fullyQualifiedTypeName name="service.ColoratorJavaServiceImpl"/>
 <fullyQualifiedTypeName name="org.osgi.util.tracker.ServiceTrackerCustomizer"/>
 <fullyQualifiedTypeName name="service.ColoratorJavaService"/>
-<fullyQualifiedTypeName name="m2dl.osgi.editor.service.ParserService"/>
 <fullyQualifiedTypeName name="org.osgi.framework.Bundle"/>
+<fullyQualifiedTypeName name="m2dl.osgi.parser.service.ParserServiceImpl"/>
+<fullyQualifiedTypeName name="m2dl.osgi.editor.ParserServiceTrackerCustomiser"/>
+<fullyQualifiedTypeName name="m2dl.osgi.editor.service.ParserService"/>
 </qualifiedTypeNameHistroy>

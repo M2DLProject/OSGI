@@ -3,16 +3,16 @@
 	<item value="false" key="generateActivator"/>
 	<item value="false" key="rcpPlugin"/>
 	<item value="false" key="apiAnalysis"/>
-	<item value="" key="targetName"/>
 	<item value="true" key="osgiProject"/>
+	<item value="" key="targetName"/>
 	<section name="org.eclipse.pde.ui.dialogs.PluginSelectionDialog">
 		<item value="true" key="ShowStatusLine"/>
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="23" key="DIALOG_Y_ORIGIN"/>
-			<item value="386" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="386" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
@@ -33,8 +33,8 @@
 		<item value="false" key="signJAR"/>
 		<item value="/home/steve/Bureau/plugin/parser" key="destination1"/>
 		<item value="/home/steve/Bureau/plugin/parser" key="destination0"/>
-		<item value="201601301601" key="qualifierName"/>
 		<item value="true" key="allowBinaryCycles"/>
+		<item value="201601301601" key="qualifierName"/>
 	</section>
 	<section name="PDEFormActionManager">
 	</section>
