@@ -30,9 +30,9 @@ public class CodeViewerController {
 
 	// private ColoratorJavaService coloratorJavaService;
 
-	private Bundle bundleParser;
-	private Bundle bundleColorator;
-	private Bundle bundleCssColorator;
+	private Bundle bundleParser = null;
+	private Bundle bundleColorator = null;
+	private Bundle bundleCssColorator = null;
 	private BundleContext bundleContext;
 	private String contentFile;
 	private String option = "<style>font{font-weight: bold;}</style>";
@@ -201,9 +201,10 @@ public class CodeViewerController {
 		 * If the css bundle is stated -> stop it otherwise start it (if it has
 		 * been loaded before)
 		 */
+
 		if (bundleCssColorator != null) {
 
-			if (bundleCssColorator.getState() == Bundle.STARTING || bundleCssColorator.getState() == Bundle.ACTIVE) {
+			if (!radioMenuCSS.isSelected()) {
 				try {
 					bundleCssColorator.stop();
 					update();
@@ -236,7 +237,7 @@ public class CodeViewerController {
 
 		if (bundleParser != null) {
 
-			if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
+			if (!radioMenuDecorator.isSelected()) {
 				try {
 					bundleParser.stop();
 					update();
@@ -246,8 +247,8 @@ public class CodeViewerController {
 				}
 			} else {
 				try {
-					bundleParser.start();
 
+					bundleParser.start();
 					update();
 
 				} catch (BundleException e) {
@@ -269,7 +270,7 @@ public class CodeViewerController {
 
 		if (bundleColorator != null) {
 
-			if (bundleColorator.getState() == Bundle.STARTING || bundleColorator.getState() == Bundle.ACTIVE) {
+			if (!radioMenuJava.isSelected()) {
 				try {
 					bundleColorator.stop();
 					update();
@@ -304,15 +305,16 @@ public class CodeViewerController {
 
 	void update() {
 		String result = contentFile;
-		Activator.logger.info("On est dans le update");
-		if (this.getColoratorCssService().getService() != null) {
-			Activator.logger.info("On va appeler le service css");
+
+		if (this.getColoratorCssService().getService() != null && bundleCssColorator != null) {
+			System.out.println("yyyyy : " + bundleCssColorator.getState());
 			result = this.getColoratorCssService().getService().colorCss(result);
 		}
-		if (this.getColoratorJavaService().getService() != null) {
+		if (this.getColoratorJavaService().getService() != null && bundleColorator != null) {
+			System.out.println("yyyyy : " + bundleCssColorator.getState());
 			result = this.getColoratorJavaService().getService().colorer(result);
 		}
-		if (this.getServiceTracker().getService() != null) {
+		if (this.getServiceTracker().getService() != null && bundleParser != null) {
 			result = this.getServiceTracker().getService().parser(result);
 		}
 
