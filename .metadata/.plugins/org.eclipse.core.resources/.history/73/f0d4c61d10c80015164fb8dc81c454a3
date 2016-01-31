@@ -1,0 +1,45 @@
+package m2dl.osgi.colorator_css;
+
+import java.util.Hashtable;
+
+import org.osgi.framework.BundleActivator;
+import org.osgi.framework.BundleContext;
+
+import m2dl.osgi.editor.service.ColoratorCssService;
+import m2dl.osgi.editor.service.ColoratorJavaService;
+
+public class Activator implements BundleActivator {
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.osgi.framework.BundleActivator#start(org.osgi.framework.
+	 * BundleContext)
+	 */
+	public void start(BundleContext context) throws Exception {
+		System.out.println("Let's go css !!");
+
+		System.out.println("Parser css start - 1");
+
+		final ColoratorCssService parserService = new ColoratorCssServiceImpl();
+
+		final Hashtable<String, String> dictionnary = new Hashtable<>();
+		dictionnary.put("my.metadata.type", "my.metadata.value");
+
+		context.registerService(ColoratorJavaService.class.getName(), parserService, dictionnary);
+
+		System.out.println("Parser start - 2");
+
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see
+	 * org.osgi.framework.BundleActivator#stop(org.osgi.framework.BundleContext)
+	 */
+	public void stop(BundleContext context) throws Exception {
+		System.out.println("Goodbye World!!");
+	}
+
+}

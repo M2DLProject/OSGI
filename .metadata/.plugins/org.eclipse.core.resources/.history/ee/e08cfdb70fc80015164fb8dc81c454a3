@@ -1,0 +1,13 @@
+package m2dl.osgi.coloratorcss.service;
+
+import m2dl.osgi.editor.service.ColoratorCssService;
+
+public class ColoratorCssServiceImpl implements ColoratorCssService{
+
+	@Override
+	public String colorCss(String parsedText) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

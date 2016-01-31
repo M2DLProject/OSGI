@@ -1,0 +1,25 @@
+package m2dl.osgi.coloratorcss.service;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import m2dl.osgi.editor.service.ColoratorCssService;
+
+public class ColoratorCssServiceImpl implements ColoratorCssService {
+
+	@Override
+	public String colorCss(String parsedText) {
+		System.out.println("la methode du java est appelé");
+
+		Map<String, String> keywords = new HashMap<String, String>();
+		keywords.put("class", "green");
+		keywords.put("public", "blue");
+
+		for (Entry<String, String> e : keywords.entrySet()) {
+			parsedText = parsedText.replaceAll(e.getKey(), ":" + e.getValue() + "{~" + e.getKey() + "~}");
+		}
+		return parsedText;
+	}
+
+}

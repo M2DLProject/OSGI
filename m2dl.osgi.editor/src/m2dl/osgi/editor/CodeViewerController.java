@@ -22,6 +22,7 @@ import javafx.scene.web.WebView;
 import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import m2dl.osgi.editor.service.ColoratorCssService;
 import m2dl.osgi.editor.service.ColoratorJavaService;
 import m2dl.osgi.editor.service.ParserService;
 
@@ -31,6 +32,7 @@ public class CodeViewerController {
 
 	private Bundle bundleParser;
 	private Bundle bundleColorator;
+	private Bundle bundleCssColorator;
 	private BundleContext bundleContext;
 	private String contentFile;
 	private String option = "<style>font{font-weight: bold;}</style>";
@@ -38,9 +40,18 @@ public class CodeViewerController {
 	private ServiceTracker<ParserService, ParserService> serviceTracker;
 
 	private ServiceTracker<ColoratorJavaService, ColoratorJavaService> coloratorJavaService;
+	private ServiceTracker<ColoratorCssService, ColoratorCssService> coloratorCssService;
 
 	public BundleContext getBundleContext() {
 		return bundleContext;
+	}
+
+	public ServiceTracker<ColoratorCssService, ColoratorCssService> getColoratorCssService() {
+		return coloratorCssService;
+	}
+
+	public void setColoratorCssService(ServiceTracker<ColoratorCssService, ColoratorCssService> coloratorCssService) {
+		this.coloratorCssService = coloratorCssService;
 	}
 
 	public void setBundleContext(BundleContext bundleContext) {
@@ -131,8 +142,10 @@ public class CodeViewerController {
 				try {
 					if (selectedFile.getName().contains("parser")) {
 						bundleParser = bundleContext.installBundle(selectedFile.toURI().toString());
-					} else {
+					} else if (selectedFile.getName().contains("java")) {
 						bundleColorator = bundleContext.installBundle(selectedFile.toURI().toString());
+					} else if (selectedFile.getName().contains("css")) {
+						bundleCssColorator = bundleContext.installBundle(selectedFile.toURI().toString());
 					}
 
 					Activator.logger.info("Bundel parser is started");
@@ -185,6 +198,29 @@ public class CodeViewerController {
 		 * If the css bundle is stated -> stop it otherwise start it (if it has
 		 * been loaded before)
 		 */
+		if (bundleCssColorator != null) {
+
+			if (bundleCssColorator.getState() == Bundle.STARTING || bundleCssColorator.getState() == Bundle.ACTIVE) {
+				try {
+					bundleCssColorator.stop();
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			} else {
+				try {
+					bundleCssColorator.start();
+
+					update();
+
+				} catch (BundleException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				Activator.logger.info("Bundle CSS activated ou disactivated");
+			}
+		}
+
 	}
 
 	@FXML
@@ -194,7 +230,7 @@ public class CodeViewerController {
 		 * it has been loaded before)
 		 */
 
-		if (bundleColorator != null) {
+		if (bundleParser != null) {
 
 			if (bundleParser.getState() == Bundle.STARTING || bundleParser.getState() == Bundle.ACTIVE) {
 				try {
@@ -267,6 +303,9 @@ public class CodeViewerController {
 		}
 		if (this.getServiceTracker().getService() != null) {
 			result = this.getServiceTracker().getService().parser(result);
+		}
+		if (this.getColoratorCssService().getService() != null) {
+			result = this.getColoratorCssService().getService().colorCss(result);
 		}
 		webViewer.getEngine().loadContent(option + result);
 	}

@@ -11,7 +11,7 @@ import org.osgi.framework.BundleException;
 
 public class MainOSGi {
 
-	private static final String ECLIPSE_RCP_INSTALLED_PATH = "/home/steve/Bureau/Nostromo/App/rcp/pEclipse/eclipse/";
+	private static final String ECLIPSE_RCP_INSTALLED_PATH = "F:/osgi/eclipse/";
 
 	private static BundleContext bundleContext;
 
@@ -32,7 +32,7 @@ public class MainOSGi {
 
 		startOSGiFramework();
 
-		installAndStartBundle("/home/steve/Bureau/plugins/m2dl.osgi.editor_1.0.0.jar");
+		installAndStartBundle("C:/Users/Marc/Documents/OSGIBundle/plugins/m2dl.osgi.editor_1.0.0.jar");
 
 		showInstalledBundles();
 	}
