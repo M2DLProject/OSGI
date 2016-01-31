@@ -1,2 +1,3 @@
-/.metadata/
-/run.osgi.from.java-main/
+*./metadata/*
+run.osgi.from.java-main/
+

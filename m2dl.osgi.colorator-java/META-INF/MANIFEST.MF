@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: ColoratorJava
 Bundle-SymbolicName: m2dl.osgi.colorator-java
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 1.0.0
 Bundle-Activator: m2dl.osgi.coloratorjava.activator.Activator
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: m2dl.osgi.editor.service,

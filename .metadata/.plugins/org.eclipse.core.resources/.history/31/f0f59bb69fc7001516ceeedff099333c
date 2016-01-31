@@ -1,0 +1,13 @@
+package m2dl.osgi.coloratorjava.service;
+
+import m2dl.osgi.editor.service.ColoratorJavaService;
+
+public class ColoratorJavaServiceImpl implements ColoratorJavaService {
+
+	@Override
+	public String colorer(String parsedText) {
+		// TODO Auto-generated method stub
+		return parsedText + "cololr";
+	}
+
+}

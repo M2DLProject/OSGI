@@ -1,0 +1,22 @@
+package m2dl.osgi.coloratorjava.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import m2dl.osgi.editor.service.ColoratorJavaService;
+
+public class ColoratorJavaServiceImpl implements ColoratorJavaService {
+
+	@Override
+	public String colorer(String parsedText) {
+		System.out.println("la methode du parser est appelé");
+
+		Map<String, String> keywords = new HashMap<String, String>();
+
+		parsedText = parsedText.replaceAll("class", ":green{~class~}");
+		parsedText = parsedText.replaceAll("class", "green");
+
+		return parsedText;
+	}
+
+}

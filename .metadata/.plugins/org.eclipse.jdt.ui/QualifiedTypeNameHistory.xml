@@ -9,4 +9,12 @@
 <fullyQualifiedTypeName name="m2dl.osgi.parser.service.ParserServiceImpl"/>
 <fullyQualifiedTypeName name="m2dl.osgi.editor.ParserServiceTrackerCustomiser"/>
 <fullyQualifiedTypeName name="m2dl.osgi.editor.service.ParserService"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="m2dl.osgi.parser.service.ColoratorJavaService"/>
+<fullyQualifiedTypeName name="m2dl.osgi.editor.ColoratorJavaServiceTrackerCustomiser"/>
+<fullyQualifiedTypeName name="m2dl.osgi.editor.service.ColoratorJavaService"/>
+<fullyQualifiedTypeName name="m2dl.osgi.coloratorjava.service.ColoratorJavaServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>

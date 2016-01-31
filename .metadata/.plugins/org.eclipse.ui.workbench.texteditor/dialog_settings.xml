@@ -2,27 +2,27 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="327" key="DIALOG_WIDTH"/>
-		<item value="221" key="DIALOG_Y_ORIGIN"/>
-		<item value="464" key="DIALOG_X_ORIGIN"/>
+		<item value="148" key="DIALOG_Y_ORIGIN"/>
 		<item value="463" key="DIALOG_HEIGHT"/>
+		<item value="129" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="mainService" key="selection"/>
+		<item value="bundleParser" key="selection"/>
 		<list key="findhistory">
+			<item value="bundleParser"/>
+			<item value="contentFile"/>
 			<item value="mainService"/>
 			<item value="addS"/>
 			<item value="mainService.getService().parser("/>
 			<item value="parser"/>
 			<item value="Context"/>
 			<item value="context"/>
-			<item value="impl"/>
-			<item value="installAndStartBundle"/>
 		</list>
 		<list key="replacehistory">
 		</list>

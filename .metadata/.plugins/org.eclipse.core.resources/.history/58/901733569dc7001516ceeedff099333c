@@ -1,0 +1,5 @@
+package m2dl.osgi.coloratorjava.service;
+
+public class ColoratorJavaServiceImpl  {
+
+}

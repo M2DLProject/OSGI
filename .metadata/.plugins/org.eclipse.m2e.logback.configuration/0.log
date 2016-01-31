@@ -140,3 +140,6 @@ java.net.UnknownHostException: services.gradle.org
 2016-01-30 20:55:01,633 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@49dbf92c{HTTP/1.1}{127.0.0.1:53409}
 2016-01-30 20:55:01,633 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @371527ms
 2016-01-30 21:07:32,496 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2016-01-31 00:02:56,649 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@49dbf92c{HTTP/1.1}{127.0.0.1:0}
+2016-01-31 00:02:56,765 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@8af6a3b{/help,null,UNAVAILABLE}
+2016-01-31 10:49:02,757 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
