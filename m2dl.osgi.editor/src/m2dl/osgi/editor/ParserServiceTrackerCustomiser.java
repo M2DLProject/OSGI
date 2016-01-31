@@ -4,7 +4,7 @@ import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
 import org.osgi.util.tracker.ServiceTrackerCustomizer;
 
-import m2dl.osgi.editor.service.ParserService;
+import m2dl.osgi.editor.serviceParser.ParserService;
 
 public class ParserServiceTrackerCustomiser implements ServiceTrackerCustomizer<ParserService, ParserService> {
 
@@ -19,7 +19,7 @@ public class ParserServiceTrackerCustomiser implements ServiceTrackerCustomizer<
 
 		final ParserService service = context.getService(serviceReference);
 
-		System.out.println("A new \"MyService\" appeared with the extention type = "
+		System.out.println("A new ParserService appeared with the extention type = "
 				+ serviceReference.getProperty("my.metadata.type"));
 
 		return service;

@@ -3449,3 +3449,1079 @@ Contains: Error parsing feature: "require" must include at least one "import" el
 !MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
 !SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:09:13.806
 !MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:40:24.435
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:24.435
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:24.435
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:40:24.438
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:24.438
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:24.438
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:40:31.138
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:31.138
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:31.138
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:40:31.140
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:31.140
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:31.140
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:40:38.125
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:38.125
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:38.125
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:40:38.133
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:38.133
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:38.133
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:40:44.614
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:44.614
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:44.615
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:40:44.616
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:44.616
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:40:44.616
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.ui.monitoring 2 0 2016-01-31 15:48:35.241
+!MESSAGE UI freeze of 0,83s at 15:48:34.412
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.241
+!MESSAGE Sample at 15:48:34.746 (+0,334s)
+Thread 'main' tid=1 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:448)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.debug.ui.BreakpointMarkerUpdater.updateMarker(BreakpointMarkerUpdater.java:107)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.updateMarker(AbstractMarkerAnnotationModel.java:572)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.updateMarkers(AbstractMarkerAnnotationModel.java:632)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.commit(AbstractMarkerAnnotationModel.java:697)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:409)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:327)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:472)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$5.run(CompilationUnitDocumentProvider.java:1606)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.notifyPostSaveListeners(CompilationUnitDocumentProvider.java:1593)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1380)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$4.execute(CompilationUnitDocumentProvider.java:1458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:70)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:108)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5076)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1244)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7209)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:216)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:357)
+	at org.eclipse.ui.internal.SaveableHelper$3.run(SaveableHelper.java:201)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:285)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:463)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:371)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2156)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2152)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:293)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:148)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3874)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3888)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:54)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor181.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1164)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1581)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4795)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4676)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.242
+!MESSAGE Sample at 15:48:35.149 (+0,403s)
+Thread 'main' tid=1 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:448)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.debug.ui.BreakpointMarkerUpdater.updateMarker(BreakpointMarkerUpdater.java:107)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.updateMarker(AbstractMarkerAnnotationModel.java:572)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.updateMarkers(AbstractMarkerAnnotationModel.java:632)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.commit(AbstractMarkerAnnotationModel.java:697)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:409)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:327)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:472)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$5.run(CompilationUnitDocumentProvider.java:1606)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.notifyPostSaveListeners(CompilationUnitDocumentProvider.java:1593)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1380)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$4.execute(CompilationUnitDocumentProvider.java:1458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:70)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:108)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5076)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1244)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7209)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:216)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:357)
+	at org.eclipse.ui.internal.SaveableHelper$3.run(SaveableHelper.java:201)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:285)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:463)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:371)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2156)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2152)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:293)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:148)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3874)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3888)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:54)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor181.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1164)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1581)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4795)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4676)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.242
+!MESSAGE Thread 'org.eclipse.jface.text.reconciler.MonoReconciler' tid=1993 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@7073f23c
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.242
+!MESSAGE Thread 'org.eclipse.jface.text.reconciler.MonoReconciler' tid=1961 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@5fbcedf3
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.242
+!MESSAGE Thread 'org.eclipse.jface.text.reconciler.MonoReconciler' tid=1960 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@12c4aef9
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1910 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@235cf8fd
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1890 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@4c510cb8
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'Process monitor' tid=1858 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+	at java.lang.ProcessImpl.waitFor(Unknown Source)
+	at org.eclipse.debug.core.model.RuntimeProcess$ProcessMonitorThread.run(RuntimeProcess.java:428)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'Input Stream Monitor' tid=1857 (WAITING)
+Waiting for: java.lang.Object@743ab3b4
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:156)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:125)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:100)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'Output Stream Monitor' tid=1856 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:137)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:212)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'Output Stream Monitor' tid=1855 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.read(OutputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor.access$1(OutputStreamMonitor.java:137)
+	at org.eclipse.debug.internal.core.OutputStreamMonitor$1.run(OutputStreamMonitor.java:212)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1772 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@6217bf7b
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1768 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@525cd09d
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1754 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@5aecb93b
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1739 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@112b5d2b
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1733 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@4e98d412
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'Worker-52' tid=1689 (WAITING)
+Waiting for: java.lang.Object@7a743d64
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:270)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:197)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:307)
+	at org.eclipse.ui.internal.editors.quickdiff.LastSaveReferenceProvider.lockDocument(LastSaveReferenceProvider.java:291)
+	at org.eclipse.ui.internal.editors.quickdiff.LastSaveReferenceProvider.readDocument(LastSaveReferenceProvider.java:243)
+	at org.eclipse.ui.internal.editors.quickdiff.LastSaveReferenceProvider.access$0(LastSaveReferenceProvider.java:204)
+	at org.eclipse.ui.internal.editors.quickdiff.LastSaveReferenceProvider$ReadJob.run(LastSaveReferenceProvider.java:114)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.243
+!MESSAGE Thread 'org.eclipse.jface.text.reconciler.MonoReconciler' tid=1467 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@45ee7670
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.244
+!MESSAGE Thread 'org.eclipse.jface.text.reconciler.MonoReconciler' tid=1466 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@0e67a9e3
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.244
+!MESSAGE Thread 'Worker-48' tid=1445 (TIMED_WAITING)
+Waiting for: java.lang.Object@44de9c1f
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:448)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.getOverrideIndicators(OverrideIndicatorLabelDecorator.java:161)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.computeAdornmentFlags(OverrideIndicatorLabelDecorator.java:136)
+	at org.eclipse.jdt.ui.OverrideIndicatorLabelDecorator.decorate(OverrideIndicatorLabelDecorator.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.270
+!MESSAGE Thread 'Worker-43' tid=1383 (WAITING)
+Waiting for: org.eclipse.ui.console.IOConsoleInputStream@06d7c479
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.ui.console.IOConsoleInputStream.waitForData(IOConsoleInputStream.java:150)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:93)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:119)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:733)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.270
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1372 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@5d9346da
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1259 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@6b78f6ee
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1179 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@58e362d3
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1170 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@60af81ba
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1166 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@274dbee3
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=1159 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@0b2ef362
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-585' tid=585 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54a617c6
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-584' tid=584 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54a617c6
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-583' tid=583 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54a617c6
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-582' tid=582 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54a617c6
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-581' tid=581 (TIMED_WAITING)
+Waiting for: java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@54a617c6
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.misc.Unsafe.park(Native Method)
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at org.eclipse.jetty.util.BlockingArrayQueue.poll(BlockingArrayQueue.java:389)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.idleJobPoll(QueuedThreadPool.java:531)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.access$700(QueuedThreadPool.java:47)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:590)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-580-acceptor-0@64839f5-ServerConnector@88fc74c{HTTP/1.1}{127.0.0.1:50559}' tid=580 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.nio.ch.ServerSocketChannelImpl.accept0(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(Unknown Source)
+	at org.eclipse.jetty.server.ServerConnector.accept(ServerConnector.java:377)
+	at org.eclipse.jetty.server.AbstractConnector$Acceptor.run(AbstractConnector.java:500)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-579-selector-ServerConnectorManager@42510dad/0' tid=579 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'qtp801141827-578-selector-ServerConnectorManager@42510dad/1' tid=578 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.select(SelectorManager.java:600)
+	at org.eclipse.jetty.io.SelectorManager$ManagedSelector.run(SelectorManager.java:549)
+	at org.eclipse.jetty.util.thread.NonBlockingThread.run(NonBlockingThread.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'org.eclipse.jdt.internal.ui.text.JavaReconciler' tid=143 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@7bb9c2fd
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'Thread-9' tid=59 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:68)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'com.google.inject.internal.util.$Finalizer' tid=50 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@03b82e75
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at com.google.inject.internal.util.$Finalizer.run(Finalizer.java:114)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.271
+!MESSAGE Thread 'EventAdmin Async Event Dispatcher Thread' tid=47 (WAITING)
+Waiting for: org.eclipse.swt.widgets.RunnableLock@3aa355fa
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:199)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:53)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.272
+!MESSAGE Thread 'Java indexing' tid=25 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@398f4fbd
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:382)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.272
+!MESSAGE Thread 'EMF Reference Cleaner' tid=18 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@1da9380d
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.272
+!MESSAGE Thread 'Worker-JM' tid=17 (TIMED_WAITING)
+Waiting for: java.util.ArrayList@205f038d
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:35.272
+!MESSAGE Thread 'org.eclipse.jface.text.reconciler.MonoReconciler' tid=1994 (TIMED_WAITING)
+Waiting for: org.eclipse.jface.text.reconciler.DirtyRegionQueue@3600e531
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:179)
+
+!ENTRY org.eclipse.ui.monitoring 2 0 2016-01-31 15:48:38.747
+!MESSAGE UI freeze of 0,50s at 15:48:38.241
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2016-01-31 15:48:38.747
+!MESSAGE Sample at 15:48:38.574 (+0,333s)
+Thread 'main' tid=1 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.jdt.internal.ui.javaeditor.ASTProvider.getAST(ASTProvider.java:448)
+	at org.eclipse.jdt.ui.SharedASTProvider.getAST(SharedASTProvider.java:128)
+	at org.eclipse.jdt.internal.debug.ui.BreakpointMarkerUpdater.updateMarker(BreakpointMarkerUpdater.java:107)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.updateMarker(AbstractMarkerAnnotationModel.java:572)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.updateMarkers(AbstractMarkerAnnotationModel.java:632)
+	at org.eclipse.ui.texteditor.AbstractMarkerAnnotationModel.commit(AbstractMarkerAnnotationModel.java:697)
+	at org.eclipse.core.internal.filebuffers.ResourceTextFileBuffer.commitFileBufferContent(ResourceTextFileBuffer.java:409)
+	at org.eclipse.core.internal.filebuffers.ResourceFileBuffer.commit(ResourceFileBuffer.java:327)
+	at org.eclipse.jdt.internal.ui.javaeditor.DocumentAdapter.save(DocumentAdapter.java:472)
+	at org.eclipse.jdt.internal.core.CommitWorkingCopyOperation.executeOperation(CommitWorkingCopyOperation.java:123)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:729)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:794)
+	at org.eclipse.jdt.internal.core.CompilationUnit.commitWorkingCopy(CompilationUnit.java:391)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider.commitWorkingCopy(CompilationUnitDocumentProvider.java:1378)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitDocumentProvider$4.execute(CompilationUnitDocumentProvider.java:1458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider$DocumentProviderOperation.run(TextFileDocumentProvider.java:132)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(WorkspaceModifyDelegatingOperation.java:70)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:108)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2241)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:130)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:75)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:65)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:456)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:772)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5076)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1244)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1298)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7209)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:216)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:357)
+	at org.eclipse.ui.internal.SaveableHelper$3.run(SaveableHelper.java:201)
+	at org.eclipse.ui.internal.SaveableHelper$5.run(SaveableHelper.java:285)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:463)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:371)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2156)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2152)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:293)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper.saveModels(SaveableHelper.java:213)
+	at org.eclipse.ui.internal.SaveableHelper.savePart(SaveableHelper.java:148)
+	at org.eclipse.ui.internal.WorkbenchPage.saveSaveable(WorkbenchPage.java:3874)
+	at org.eclipse.ui.internal.WorkbenchPage.saveEditor(WorkbenchPage.java:3888)
+	at org.eclipse.ui.internal.handlers.SaveHandler.execute(SaveHandler.java:54)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.GeneratedMethodAccessor181.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:286)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:507)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:558)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:378)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:324)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:86)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1266)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1112)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1122)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1164)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1160)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1581)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4795)
+	at org.eclipse.swt.widgets.Canvas.WM_CHAR(Canvas.java:343)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4676)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:51:20.236
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:20.237
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:20.237
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:51:20.241
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:20.241
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:20.241
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:51:27.469
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:27.470
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:27.470
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:51:27.472
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:27.473
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:27.473
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:51:35.081
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:35.082
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:35.082
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:51:35.084
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:35.084
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:35.084
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 15:51:41.646
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:41.646
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:41.646
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 15:51:41.648
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:41.648
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:41.648
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.

@@ -6,7 +6,7 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
 import m2dl.osgi.coloratorjava.service.ColoratorJavaServiceImpl;
-import m2dl.osgi.editor.service.ColoratorJavaService;
+import m2dl.osgi.editor.serviceColorJava.ColoratorJavaService;
 
 public class Activator implements BundleActivator {
 
@@ -17,7 +17,6 @@ public class Activator implements BundleActivator {
 	 * BundleContext)
 	 */
 	public void start(BundleContext context) throws Exception {
-		System.out.println("Lets go java!!");
 
 		System.out.println("Parser start - 1");
 
@@ -27,8 +26,6 @@ public class Activator implements BundleActivator {
 		dictionnary.put("my.metadata.type", "my.metadata.value");
 
 		context.registerService(ColoratorJavaService.class.getName(), parserService, dictionnary);
-
-		System.out.println("Parser start - 2");
 
 	}
 

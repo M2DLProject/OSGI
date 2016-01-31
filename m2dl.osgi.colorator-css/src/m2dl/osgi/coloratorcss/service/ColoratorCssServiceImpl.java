@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import m2dl.osgi.editor.service.ColoratorCssService;
+import m2dl.osgi.editor.serviceColorCss.ColoratorCssService;
 
 public class ColoratorCssServiceImpl implements ColoratorCssService {
 

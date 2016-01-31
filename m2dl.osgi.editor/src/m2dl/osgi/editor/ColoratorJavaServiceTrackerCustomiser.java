@@ -4,7 +4,7 @@ import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
 import org.osgi.util.tracker.ServiceTrackerCustomizer;
 
-import m2dl.osgi.editor.service.ColoratorJavaService;
+import m2dl.osgi.editor.serviceColorJava.ColoratorJavaService;
 
 public class ColoratorJavaServiceTrackerCustomiser
 		implements ServiceTrackerCustomizer<ColoratorJavaService, ColoratorJavaService> {
@@ -20,7 +20,7 @@ public class ColoratorJavaServiceTrackerCustomiser
 
 		final ColoratorJavaService service = context.getService(serviceReference);
 
-		System.out.println("A new \"MyService\" appeared with the extention type = "
+		System.out.println("A new ColoratorService appeared with the extention type = "
 				+ serviceReference.getProperty("my.metadata.type"));
 
 		return service;

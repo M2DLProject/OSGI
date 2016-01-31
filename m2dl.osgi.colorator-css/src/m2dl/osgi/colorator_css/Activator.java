@@ -6,7 +6,7 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
 import m2dl.osgi.coloratorcss.service.ColoratorCssServiceImpl;
-import m2dl.osgi.editor.service.ColoratorCssService;
+import m2dl.osgi.editor.serviceColorCss.ColoratorCssService;
 
 public class Activator implements BundleActivator {
 
@@ -27,8 +27,6 @@ public class Activator implements BundleActivator {
 		dictionnary.put("my.metadata.type", "my.metadata.value");
 
 		context.registerService(ColoratorCssService.class.getName(), parserService, dictionnary);
-
-		System.out.println("Parser css start - 2");
 
 	}
 

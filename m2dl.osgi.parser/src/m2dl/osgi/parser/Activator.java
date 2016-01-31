@@ -5,7 +5,7 @@ import java.util.Hashtable;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-import m2dl.osgi.editor.service.ParserService;
+import m2dl.osgi.editor.serviceParser.ParserService;
 import m2dl.osgi.parser.service.ParserServiceImpl;
 
 public class Activator implements BundleActivator {

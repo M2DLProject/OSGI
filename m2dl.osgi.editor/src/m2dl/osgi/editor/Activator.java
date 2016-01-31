@@ -14,9 +14,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import m2dl.osgi.editor.service.ColoratorCssService;
-import m2dl.osgi.editor.service.ColoratorJavaService;
-import m2dl.osgi.editor.service.ParserService;
+import m2dl.osgi.editor.serviceColorCss.ColoratorCssService;
+import m2dl.osgi.editor.serviceColorJava.ColoratorJavaService;
+import m2dl.osgi.editor.serviceParser.ParserService;
 
 public class Activator implements BundleActivator {
 
