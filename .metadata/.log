@@ -4525,3 +4525,179 @@ Contains: Error parsing feature: "require" must include at least one "import" el
 !MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
 !SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 15:51:41.648
 !MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 16:13:51.203
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:13:51.203
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:13:51.203
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 16:13:51.206
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:13:51.206
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:13:51.206
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 16:14:11.959
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:11.959
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:11.959
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 16:14:11.961
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:11.962
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:11.962
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 16:14:20.288
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:20.288
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:20.288
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 16:14:20.290
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:20.290
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:20.290
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 17 2016-01-31 16:14:34.735
+!MESSAGE Could not create feature: file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:34.735
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:34.735
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
+
+!ENTRY org.eclipse.pde.build 4 1 2016-01-31 16:14:34.738
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.parseBuildFeature(BuildTimeFeatureFactory.java:85)
+	at org.eclipse.pde.internal.build.site.BuildTimeFeatureFactory.createFeature(BuildTimeFeatureFactory.java:50)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.createFeature(BuildTimeSite.java:458)
+	at org.eclipse.pde.internal.build.site.compatibility.FeatureReference.getFeature(FeatureReference.java:39)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.resolveFeatureReferences(BuildTimeSite.java:316)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:285)
+	at org.eclipse.pde.internal.build.site.BuildTimeSite.findFeature(BuildTimeSite.java:277)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generateFeatures(BuildScriptGenerator.java:249)
+	at org.eclipse.pde.internal.build.BuildScriptGenerator.generate(BuildScriptGenerator.java:127)
+	at org.eclipse.pde.internal.core.exports.FeatureExportOperation.doExport(FeatureExportOperation.java:257)
+	at org.eclipse.pde.internal.core.exports.FeatureBasedExportOperation.run(FeatureBasedExportOperation.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Contains: Error parsing feature: "require" must include at least one "import" element.
+!SUBENTRY 1 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:34.738
+!MESSAGE Problems parsing the feature file:F:/osgi/eclipse/features/org.eclipse.epp.package.rcp.feature_4.5.1.20150917-1200/feature.xml.
+!SUBENTRY 2 org.eclipse.equinox.p2.publisher.eclipse 4 17 2016-01-31 16:14:34.738
+!MESSAGE Error parsing feature: "require" must include at least one "import" element.
