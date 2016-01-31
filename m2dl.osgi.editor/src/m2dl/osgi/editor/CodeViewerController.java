@@ -142,13 +142,16 @@ public class CodeViewerController {
 				try {
 					if (selectedFile.getName().contains("parser")) {
 						bundleParser = bundleContext.installBundle(selectedFile.toURI().toString());
+						Activator.logger.info("Bundel parser is loaded");
 					} else if (selectedFile.getName().contains("java")) {
 						bundleColorator = bundleContext.installBundle(selectedFile.toURI().toString());
+						Activator.logger.info("Bundel Java is loaded");
 					} else if (selectedFile.getName().contains("css")) {
 						bundleCssColorator = bundleContext.installBundle(selectedFile.toURI().toString());
+						Activator.logger.info("Bundel css is started");
+
 					}
 
-					Activator.logger.info("Bundel parser is started");
 				} catch (BundleException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
@@ -298,15 +301,18 @@ public class CodeViewerController {
 
 	void update() {
 		String result = contentFile;
+		Activator.logger.info("On est dans le update");
+		if (this.getColoratorCssService().getService() != null) {
+			Activator.logger.info("On va appeler le service css");
+			result = this.getColoratorCssService().getService().colorCss(result);
+		}
 		if (this.getColoratorJavaService().getService() != null) {
 			result = this.getColoratorJavaService().getService().colorer(result);
 		}
 		if (this.getServiceTracker().getService() != null) {
 			result = this.getServiceTracker().getService().parser(result);
 		}
-		if (this.getColoratorCssService().getService() != null) {
-			result = this.getColoratorCssService().getService().colorCss(result);
-		}
+
 		webViewer.getEngine().loadContent(option + result);
 	}
 

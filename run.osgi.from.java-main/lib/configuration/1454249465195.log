@@ -1,0 +1,8 @@
+!SESSION 2016-01-31 15:11:05.263 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_66
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+
+!ENTRY org.eclipse.osgi 4 0 2016-01-31 15:11:05.280
+!MESSAGE The -clean (osgi.clean) option was not successful. Unable to clean the storage area: F:\osgi\workspace\comeon\OSGI\run.osgi.from.java-main\lib\configuration\org.eclipse.osgi

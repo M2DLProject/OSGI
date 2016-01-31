@@ -61,6 +61,7 @@ public class Activator implements BundleActivator {
 				bundleContext);
 		final ServiceTracker<ColoratorCssService, ColoratorCssService> coloratorCssServiceTracker = new ServiceTracker<ColoratorCssService, ColoratorCssService>(
 				bundleContext, ColoratorCssService.class.getName(), coloratorCssServiceTrackerCustomiser);
+		coloratorCssServiceTracker.open();
 
 		/*
 		 * Starting only one JavaFX window.
